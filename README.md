@@ -6,6 +6,7 @@ In order to run the web app follow these instructions:
 2. Install node_modules by running 'npm install' and 'yarn install' in terminal
 3. Install latest tailwindcss by running 'npm install tailwindcss@latest'
 4. Install OpenAI resources by running 'npm install openai'
+6. Input secret key in 'secrets'
 5. In pages/api/openai.js you construct your request to OpenAI API
 6. In pages/index.js you tweak your UI/UX
 7. Start the dev server with 'yarn dev' or 'npm run dev' command
