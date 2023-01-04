@@ -1,5 +1,5 @@
 # Craftr
-The service provided by Craftr. Helping build dreams with a variety of use cases.
+## The service provided by Craftr. Helping build dreams with a variety of use cases.
 
 In order to run the web app follow these instructions:
 1. Add your OpenAI API key to .env file (sign up at https://beta.openai.com for account / key)
