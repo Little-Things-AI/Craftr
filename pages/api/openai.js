@@ -37,11 +37,11 @@ Select a topic or domain:`;
     topP: 1,
     presencePenalty: 0.6,
     frequencyPenalty: 0.5,
-    bestOf: 3,
+    bestOf: 1,
     n: 1,
   });
 
   res.status(200).json({ text: `${gptResponse.data.choices[0].text}` });
 };
-// model: "text-davinci-003",
-// prompt: "Write a long form social media post based on this Content that will engage a reader into conversation, include a summary of the Content",
+// model: "text-davinci-003 or text-curie-001",
+// prompt: "Example prompt above is starfish, here's another simple one. Write a long form social media post based on this Content that will engage a reader into conversation, include a summary of the Content",
